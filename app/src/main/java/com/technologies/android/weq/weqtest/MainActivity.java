@@ -12,7 +12,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        int a=MyMaths.add(1,2);
+        int a=MyMaths.add2(1,2);
         Toast toast = Toast.makeText(getApplicationContext(), "sum "+a, Toast.LENGTH_LONG);
         toast.show();
     }
